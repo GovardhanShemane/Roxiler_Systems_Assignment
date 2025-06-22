@@ -2,7 +2,7 @@
 
 **Welcome to RateMyStore!** This is a full stack web application built using ReactJS (frontend), Express.js (backend), and PostgreSQL (database). It enables users to discover, rate, and review stores with role-based access for different types of users.
 
-## 🔍 Overview
+##  Overview
 
 RateMyStore provides a unified platform where:
 
@@ -10,9 +10,9 @@ RateMyStore provides a unified platform where:
 * **Store Owners** can view who rated their stores and track the average rating.
 * **System Administrators** can manage users, stores, and platform statistics.
 
-## 🚀 Features
+##  Features
 
-### ✅ General
+### General
 
 * Role-based login & dashboards
 * Secure JWT authentication
@@ -20,28 +20,28 @@ RateMyStore provides a unified platform where:
 * Responsive UI (TailwindCSS)
 * Filtering & sorting in tables
 
-### 🛠️ System Administrator
+### System Administrator
 
 * Add/manage users (Admin/Normal/Store Owner)
 * Add/manage stores
 * Dashboard with stats: total users, stores, ratings
 * View/search users and stores with filters
 
-### 👤 Normal User
+### Normal User
 
 * Register/Login
 * Browse, search, and rate stores (1-5 stars)
 * Update previously submitted rating
 * Change password
 
-### 🏬 Store Owner
+### Store Owner
 
 * Login
 * View users who rated their store
 * See average store rating
 * Update password
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 
@@ -60,14 +60,14 @@ RateMyStore provides a unified platform where:
 * bcryptjs
 * dotenv + CORS
 
-## 🔧 Prerequisites
+## Prerequisites
 
 * Node.js (v18+)
 * npm (v9+)
 * PostgreSQL
 * Backend server running at `http://localhost:5000/api`
 
-## 📦 Getting Started
+## Getting Started
 
 ### 1. Clone the Repository
 
@@ -105,14 +105,14 @@ cd ../frontend
 npm run start
 ```
 
-## 🧪 Available Scripts
+##  Available Scripts
 
 ```bash
 npm start        # Dev server
 npm run build    # Build for production
 ```
 
-## 📋 Functionality Summary
+##  Functionality Summary
 
 ### Registration/Login
 
@@ -140,7 +140,7 @@ npm run build    # Build for production
 * Update password securely
 * Logout clears localStorage token
 
-## 📌 API Endpoints Used
+##  API Endpoints Used
 
 ```
 - POST /auth/login
@@ -158,14 +158,14 @@ npm run build    # Build for production
 - GET /owner/dashboard
 ```
 
-## ✅ Form Validations
+## Form Validations
 
 * **Name:** 20-60 chars
 * **Address:** Max 400 chars
 * **Password:** 8-16 chars, 1 uppercase, 1 special char
 * **Email:** Valid email format
 
-## 🤝 Contributions
+##  Contributions
 
 Open to suggestions, improvements, and pull requests! Please maintain code clarity and comment where needed.
 
